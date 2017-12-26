@@ -116,7 +116,7 @@ body .wrap .content .about-me {
   z-index: 4;
   font-size: 1.5em;
   transition: all ease-in 0.3s;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 @media only screen and (max-width: 800px) {
