@@ -126,6 +126,26 @@ body .wrap .content .about-me {
   }
 }
 
+body .wrap .content .about-me .social {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+body .wrap .content .about-me .social .item {
+  width: 50px;
+  height: 50px;
+  font-size: 1.5em;
+  color: black !important;
+  text-decoration: none;
+}
+
+body .wrap .content .about-me .social .item:hover {
+  transform: translateY(-5px);
+}
+
 body .wrap .content .about-me .logo-black {
   background-image: url("NameLogoBlk.png");
   height: 200px;
@@ -137,6 +157,7 @@ body .wrap .content .about-me .logo-black {
 }
 
 body .wrap .content .about-me .me-content {
+  text-align: center;
   margin-top: 20%;
 }
 
