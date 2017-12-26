@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/kube/6.5.2/css/kube.min.css">
+    <link rel="stylesheet" href="blueimp-gallery.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lol</title>
+  </head>
+  <body>
+    <div class="wrap">
+         <div class="logo-wrap">
+          <img id="logo" src="Logo.png" alt="">
+
+        </div>  
+        <div class="content">
+          <!-- About Me Page -->
+          <div class="about-me">
+            <div class="close"></div>
+            <div class="logo-black"></div>
+            <div class="me-content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta velit sit amet tincidunt porttitor. Proin rutrum, leo tincidunt sodales ultrices, metus leo tincidunt risus, ut sagittis ipsum dolor nec dui. Curabitur consequat lacus eget gravida faucibus. In hac habitasse platea dictumst. Integer facilisis massa at urna vulputate tempus. Nam pulvinar consequat nisi, et consequat lacus porta venenatis. Nulla gravida leo nibh, sed scelerisque magna efficitur sed.
+            </div>
+            <!-- TODO
+            Social media icon links -->
+          </div>
+
+          <!-- Contact Me Page -->
+          <div class="contact-me" id="contact">
+            <div class="close float-right"></div>
+            <div class="opening">
+              <h1>Ready to order?</h1>
+              <p>Do you have more questions about my work? ask me anything through <here></here></p>
+            </div>
+            <form action="post" class="form">
+              <div class="form-item">
+                  <label>Email</label>
+                  <input type="email" name="email" class="w100" >
+              </div>              
+              <div class="form-item">
+                  <label>What are you looking for?</label>
+                  <textarea rows="6"></textarea>
+              </div>
+              <div class="form-item">
+                  <label>Budget (USD)</label>
+                  <div class="prepend w50">
+                      <span>$</span>
+                      <input type="text">
+                  </div>
+              </div>
+              <div class="form-item">
+                  <button class="w50 center">Submit</button>
+              </div>
+            </form>
+          </div>
+
+
+          <div class="portfolio">
+            <div class="close"> </div>
+            <h1>PORTFOLIO</h1>
+            <div class="images">
+            <div id="blueimp-gallery" class="blueimp-gallery">
+                <div class="slides"></div>
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+            </div>
+
+            <div id="links">
+              <a href="https://i.imgur.com/BjWyTx9.jpg" title="A2 Banner">
+                  <img src="https://i.imgur.com/BjWyTx9.jpg" alt="A2 Banner">
+              </a>
+              <a href="https://i.imgur.com/6qyb7mD.jpg" title="Shape Banner">
+                  <img src="https://i.imgur.com/6qyb7mD.jpg" alt="Shape Banner">
+              </a>
+              <a href="https://i.imgur.com/ri0GnxF.jpg" title="Black n White Banner">
+                  <img src="https://i.imgur.com/ri0GnxF.jpg" alt="Black n White Banner">
+              </a>
+              <a href="https://i.imgur.com/9ddWwCh.png" title="Rizion Profile Picture">
+                  <img src="https://i.imgur.com/sGYzshV.png" alt="Rizion Profile Picture">
+              </a>
+              <a href="https://i.imgur.com/D6Fmyku.jpg" title="Therrapy Profile Picture">
+                  <img src="https://i.imgur.com/uwNKpAmg.jpg" alt="Therrapy Profile Picture">
+              </a>
+              <a href="https://i.imgur.com/EtHESLE.png" title="Fusiion Whitey Profile Picture">
+                  <img src="https://i.imgur.com/uHozj8M.png" alt="Fusiion Whitey Porfile Picture">
+              </a>
+              <a href="https://i.imgur.com/wDVWhy1.jpg" title="Fusiion Whitey Banner">
+                  <img src="https://i.imgur.com/wDVWhy1.jpg" alt="Fusiion Whitey Banner">
+              </a>
+          </div>
+
+
+              <!-- <img src="https://i.imgur.com/BjWyTx9.jpg" alt="">
+              <img src="https://i.imgur.com/6qyb7mD.jpg" alt="">
+              <img src="https://i.imgur.com/ri0GnxF.jpg" alt="">
+              <img src="https://i.imgur.com/9ddWwCh.png" alt="">
+              <img src="https://i.imgur.com/D6Fmyku.jpg" alt="">
+              <img src="https://i.imgur.com/EtHESLE.png" alt="">
+              <img src="https://i.imgur.com/wDVWhy1.jpg" alt="">  -->
+
+            </div>
+          </div>
+
+
+
+
+          <!-- NavBar -->
+          <div class="nav">
+            <div class="logo-holder"></div>
+            <div class="nav-item" id="about">About me</div>
+            <div class="nav-item" id="port">Portfolio</div>
+            <div class="nav-item" id="contactme">Contact me</div>
+          </div>
+          <div class="border"></div>
+          <div id="scene">
+            <div data-depth="0.1" class="holder-bg"></div>
+          </div>
+        
+        
+        </div>
+          
+    </div>
+
+
+
+
+      <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+      <script src="blueimp-gallery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/kube/6.5.2/js/kube.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+      <script>
+
+          $(document).ready(function(){
+            $('#logo').click(function(){
+               $('#logo').animation('rotate');
+              setTimeout(function(){
+                $('#logo').animation('zoomOut');
+                $('.logo-wrap').addClass('dissappear');
+              }, 700)
+            });
+            var scene = document.getElementById('scene');
+            var parallaxInstance = new Parallax(scene);
+            $('#about').click(function(){
+              console.log('asdasd');
+              $('.about-me').addClass('display');
+              $('.nav').addClass('notDis');
+            });
+            $('#contactme').click(function(){
+              console.log('asdasdddd');
+              $('.contact-me').addClass('display');
+              $('.nav').addClass('notDis');
+            });
+            $('#port').click(function(){
+              console.log('asdasdddd');
+              $('.portfolio').addClass('portDis');
+            });
+            $('.close').click(function(){
+              $('.about-me').removeClass('display');
+              $('.contact-me').removeClass('display');
+              $('.portfolio').removeClass('portDis');
+              $('.nav').removeClass('notDis');
+            });
+         document.getElementById('links').onclick = function (event) {
+          event = event || window.event;
+          var target = event.target || event.srcElement,
+              link = target.src ? target.parentNode : target,
+              options = {index: link, event: event},
+              links = this.getElementsByTagName('a');
+          blueimp.Gallery(links, options);
+      };
+          })
+        </script>
+    </body>
+</html>
